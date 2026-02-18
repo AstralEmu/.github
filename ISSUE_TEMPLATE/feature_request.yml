@@ -1,0 +1,71 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to improve AstralEmu? We'd love to hear it.
+
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      description: Which area does this feature relate to?
+      options:
+        - Image / System
+        - Emulators
+        - EmulationStation DE / Frontend
+        - Performance Manager
+        - Service Management
+        - Package Repository / Build System
+        - Update System
+        - Documentation
+        - New Service Integration
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Motivation
+      description: What problem does this solve? Why is it needed?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe how you'd like this to work
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Any alternative approaches you've thought about?
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: How much of the project would this affect?
+      options:
+        - Single component
+        - Multiple components
+        - Entire system / architecture
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Checklist
+      options:
+        - label: I have searched existing issues and discussions for this feature
+          required: true
+        - label: This does not request support for piracy or copyrighted content
+          required: true

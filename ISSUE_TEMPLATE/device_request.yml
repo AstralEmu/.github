@@ -1,0 +1,102 @@
+name: Device Support Request
+description: Request support for a new hardware device
+labels: ["device-support", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want AstralEmu on your device? Fill in the details below so we can evaluate adding support.
+
+  - type: input
+    id: device-name
+    attributes:
+      label: Device Name
+      description: Full commercial name of the device
+      placeholder: "e.g. Orange Pi 5 Plus"
+    validations:
+      required: true
+
+  - type: input
+    id: manufacturer
+    attributes:
+      label: Manufacturer
+      description: Who makes this device?
+      placeholder: "e.g. Xunlong, Hardkernel, Valve, ASUS, etc."
+    validations:
+      required: true
+
+  - type: input
+    id: soc
+    attributes:
+      label: SoC / CPU
+      description: The main processor or system-on-chip
+      placeholder: "e.g. Rockchip RK3588, Snapdragon 8 Gen 2, AMD Z1 Extreme"
+    validations:
+      required: true
+
+  - type: input
+    id: architecture
+    attributes:
+      label: CPU Architecture
+      description: Target architecture
+      placeholder: "e.g. aarch64, armv7l, x86_64"
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      description: GPU model if known
+      placeholder: "e.g. Mali-G610 MP4, Adreno 740, RDNA 3"
+
+  - type: input
+    id: ram
+    attributes:
+      label: RAM
+      description: Amount and type of RAM
+      placeholder: "e.g. 8GB LPDDR5"
+
+  - type: textarea
+    id: vendor-repos
+    attributes:
+      label: Vendor Repositories / BSP
+      description: |
+        Links to vendor kernel sources, BSP packages, or hardware-specific repositories.
+        These are critical for the cross-distro package translation system.
+      placeholder: |
+        - https://github.com/vendor/linux-device
+        - https://apt.vendor.com/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: base-distro
+    attributes:
+      label: Vendor's Default Distribution
+      description: What Linux distribution does the vendor provide?
+      options:
+        - Ubuntu
+        - Debian
+        - Armbian
+        - Fedora
+        - Arch Linux
+        - Custom / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Anything else relevant (Linux support status, community resources, quirks)
+
+  - type: checkboxes
+    id: ownership
+    attributes:
+      label: Checklist
+      options:
+        - label: I own this device and can help with testing
+          required: false
+        - label: I have searched existing issues and this device is not already requested
+          required: true
