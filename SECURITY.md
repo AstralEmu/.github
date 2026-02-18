@@ -1,4 +1,14 @@
-# Security Policy
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AstralEmu/.github/main/profile/banner-astralemu.svg" alt="AstralEmu" width="100%"/>
+</p>
+
+<h1 align="center">Security Policy</h1>
+
+<p align="center">
+  <i>How to report vulnerabilities and what to expect.</i>
+</p>
+
+---
 
 ## Supported Versions
 
@@ -12,7 +22,7 @@ Only the latest version of each AstralEmu image and package repository is suppor
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability in AstralEmu, **do not open a public issue**.
+> **Do not open a public issue for security vulnerabilities.**
 
 Instead, please report it privately:
 
@@ -31,28 +41,36 @@ Instead, please report it privately:
 
 ### What to Expect
 
-- **Acknowledgment** within 72 hours
-- **Assessment** within 1 week
-- **Fix or mitigation** in the next rebuild cycle when possible
-- Credit in the release notes (unless you prefer to remain anonymous)
+| Step | Timeline |
+|---|---|
+| Acknowledgment | Within 72 hours |
+| Assessment | Within 1 week |
+| Fix or mitigation | Next rebuild cycle when possible |
+| Credit in release notes | Unless you prefer to remain anonymous |
+
+---
 
 ## Scope
 
-The following are in scope for security reports:
+### In Scope
 
-- **Image builder**: Workflow injection, supply chain issues in build pipelines
-- **Package builds**: Compromised build dependencies, unsigned packages, build tampering
-- **Performance manager**: Privilege escalation via governor/overclock controls
-- **Service management**: Unintended service exposure, isolation bypass between services (ES-DE, XFCE, Plasma Mobile, Kodi, Waydroid)
-- **Update mechanism**: Man-in-the-middle on updates, unsigned image delivery
-- **Cross-distro translation**: Dependency confusion, malicious package substitution
+| Component | Examples |
+|---|---|
+| **Image builder** | Workflow injection, supply chain issues in build pipelines |
+| **Package builds** | Compromised build dependencies, unsigned packages, build tampering |
+| **Performance manager** | Privilege escalation via governor/overclock controls |
+| **Service management** | Unintended service exposure, isolation bypass between ES-DE, XFCE, Plasma Mobile, Kodi, Waydroid |
+| **Update mechanism** | Man-in-the-middle on updates, unsigned image delivery |
+| **Cross-distro translation** | Dependency confusion, malicious package substitution |
 
-The following are **out of scope**:
+### Out of Scope
 
-- Vulnerabilities in upstream emulators (report to the emulator project directly)
-- Vulnerabilities in upstream distributions (report to Ubuntu, Debian, Fedora, or Arch directly)
+- Vulnerabilities in upstream emulators — report to the emulator project directly
+- Vulnerabilities in upstream distributions — report to Ubuntu, Debian, Fedora, or Arch directly
 - Vulnerabilities requiring physical access to a device that is already unlocked
 - Social engineering attacks
+
+---
 
 ## Security Practices
 
@@ -62,3 +80,11 @@ AstralEmu follows these security practices:
 - Build pipelines include verification to prevent re-download or re-upload of tampered artifacts
 - Overclock safety limits are enforced based on power supply status
 - Only one service runs at a time, reducing attack surface
+
+---
+
+<p align="center">
+  <a href="https://astralemu.github.io">Documentation</a> &middot;
+  <a href="https://github.com/orgs/AstralEmu/discussions">Community</a> &middot;
+  <a href="https://github.com/AstralEmu/astralemu">Main Repository</a>
+</p>

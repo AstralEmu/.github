@@ -1,4 +1,14 @@
-# Support
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AstralEmu/.github/main/profile/banner-astralemu.svg" alt="AstralEmu" width="100%"/>
+</p>
+
+<h1 align="center">Support</h1>
+
+<p align="center">
+  <i>Where to find help and how to get it.</i>
+</p>
+
+---
 
 ## Getting Help
 
@@ -7,6 +17,8 @@ Before asking for help, please check the existing resources:
 1. **[Documentation](https://astralemu.github.io)** — Guides, device pages, and configuration reference
 2. **[GitHub Discussions](https://github.com/orgs/AstralEmu/discussions)** — Community Q&A and general discussions
 3. **[Existing Issues](https://github.com/orgs/AstralEmu/repositories)** — Search open and closed issues across repositories
+
+---
 
 ## Where to Ask
 
@@ -21,6 +33,8 @@ Before asking for help, please check the existing resources:
 | To share what I built | [Discussions — Show and Tell](https://github.com/orgs/AstralEmu/discussions/categories/show-and-tell) |
 | To discuss ideas | [Discussions — Ideas](https://github.com/orgs/AstralEmu/discussions/categories/ideas) |
 
+---
+
 ## What NOT to Use Issues For
 
 GitHub Issues are for **bugs and actionable requests only**. Please do not use issues for:
@@ -31,7 +45,15 @@ GitHub Issues are for **bugs and actionable requests only**. Please do not use i
 
 ## Tips for Getting Help Faster
 
-- **Be specific**: Include your device, base distribution, and image version
-- **Share logs**: Attach relevant logs or terminal output
-- **One issue = one problem**: Don't combine multiple issues into one
-- **Search first**: Your question may already be answered
+- **Be specific** — Include your device, base distribution, and image version
+- **Share logs** — Attach relevant logs or terminal output
+- **One issue = one problem** — Don't combine multiple issues into one
+- **Search first** — Your question may already be answered
+
+---
+
+<p align="center">
+  <a href="https://astralemu.github.io">Documentation</a> &middot;
+  <a href="https://github.com/orgs/AstralEmu/discussions">Community</a> &middot;
+  <a href="https://github.com/AstralEmu/astralemu">Main Repository</a>
+</p>

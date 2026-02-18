@@ -1,6 +1,14 @@
-# Contributing to AstralEmu
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AstralEmu/.github/main/profile/banner-astralemu.svg" alt="AstralEmu" width="100%"/>
+</p>
 
-Thank you for your interest in contributing to AstralEmu! This guide covers how to contribute across all repositories in the organization.
+<h1 align="center">Contributing to AstralEmu</h1>
+
+<p align="center">
+  <i>Thank you for your interest in contributing. This guide covers how to contribute across all repositories in the organization.</i>
+</p>
+
+---
 
 ## Table of Contents
 
@@ -14,6 +22,8 @@ Thank you for your interest in contributing to AstralEmu! This guide covers how 
 - [Commit Conventions](#commit-conventions)
 - [Pull Request Process](#pull-request-process)
 - [Coding Standards](#coding-standards)
+
+---
 
 ## Getting Started
 
@@ -50,6 +60,8 @@ git commit -m "feat: description of the change"
 # Push and open a PR
 git push origin feat/my-feature
 ```
+
+---
 
 ## Adding Device Support
 
@@ -108,6 +120,8 @@ Documentation lives at [astralemu.github.io](https://github.com/AstralEmu/astral
 3. Test locally with `npm run dev` before submitting
 4. Include screenshots where relevant
 
+---
+
 ## Commit Conventions
 
 We follow [Conventional Commits](https://www.conventionalcommits.org/):
@@ -143,6 +157,8 @@ type(scope): description
 5. **Address feedback** — Make requested changes in additional commits
 6. **Squash on merge** — PRs are squash-merged to keep history clean
 
+---
+
 ## Coding Standards
 
 ### Shell Scripts (Bash)
@@ -169,3 +185,11 @@ All contributors must follow our [Code of Conduct](CODE_OF_CONDUCT.md). Notably,
 - Open a [Discussion](https://github.com/orgs/AstralEmu/discussions) for general questions
 - Check the [Documentation](https://astralemu.github.io) for guides
 - Use issue templates for bugs, feature requests, or device support requests
+
+---
+
+<p align="center">
+  <a href="https://astralemu.github.io">Documentation</a> &middot;
+  <a href="https://github.com/orgs/AstralEmu/discussions">Community</a> &middot;
+  <a href="https://github.com/AstralEmu/astralemu">Main Repository</a>
+</p>

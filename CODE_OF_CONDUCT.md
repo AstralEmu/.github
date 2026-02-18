@@ -1,4 +1,14 @@
-# Code of Conduct
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AstralEmu/.github/main/profile/banner-astralemu.svg" alt="AstralEmu" width="100%"/>
+</p>
+
+<h1 align="center">Code of Conduct</h1>
+
+<p align="center">
+  <i>Guidelines for a respectful and productive community.</i>
+</p>
+
+---
 
 ## Our Pledge
 
@@ -40,3 +50,11 @@ Maintainers have the right and responsibility to remove, edit, or reject comment
 ## Attribution
 
 This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1.
+
+---
+
+<p align="center">
+  <a href="https://astralemu.github.io">Documentation</a> &middot;
+  <a href="https://github.com/orgs/AstralEmu/discussions">Community</a> &middot;
+  <a href="https://github.com/AstralEmu/astralemu">Main Repository</a>
+</p>
